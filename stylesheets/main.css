@@ -23,7 +23,8 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  text-align: center; }
 
 .home-arrow-t-white2::before {
   border-color: transparent transparent transparent #fff; }
