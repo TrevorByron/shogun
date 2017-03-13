@@ -1,21 +1,54 @@
+header {
+  position: fixed;
+  top: 46vh;
+  left: -47vh;
+  background-color: white;
+  width: 101vh;
+  transform: rotate(-90deg);
+  text-align: center;
+  z-index: 1; }
+  header ul li {
+    display: inline-block;
+    margin: 10px 30px; }
+
 .hero {
   background: url(../images/hero.JPG);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  padding: 50%; }
+  height: 100vh; }
 
 .hero2 {
   background: url(../images/hero2.JPG) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  padding: 50%; }
+  height: 100vh; }
 
-.title {
+.home-arrow-t-white::before {
+  border-color: transparent transparent transparent #fff; }
+
+.home-arrow::before {
+  left: 0;
+  border-width: 7vw 0 0 50vw; }
+
+.home-arrow::before, .home-arrow::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid; }
+
+.home-arrow-t-white::after {
+  border-color: transparent transparent #fff; }
+
+.home-arrow::after {
+  right: 0;
+  border-width: 0 0 7vw 50vw; }
+
+.info {
   text-align: center; }
-  .title h1 {
-    max-width: 650px;
-    text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
