@@ -1,1 +1,1 @@
-I spend the morning experiementing with navigation ideas and angled page breaks
+I spent the morning exploring navigation ideas and angled page breaks
